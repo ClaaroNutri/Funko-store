@@ -40,16 +40,19 @@ a{
 .text-banner{
     opacity:0;
 }
+.texto{
+    margin-left: 15%;
+}
 .banner >p{
     font-size: 18px;
-    padding-left: 10%;
+    
 }
 .banner-titulo{
     padding-top: 10%;
-    padding-left: 10%;
+    
 }
 #banner-btn{
-    margin-left: 10%;
+    
     width: 180px;
     transition: all 0.3s ease-in-out;
 }
