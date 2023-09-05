@@ -37,6 +37,9 @@ a{
     height:400px;
     background-attachment: fixed;
 } 
+.text-banner{
+    opacity:0;
+}
 .banner >p{
     font-size: 18px;
     padding-left: 10%;
@@ -198,8 +201,8 @@ footer p {color: #FFFFFF;
         order:-1;
     }
     .footer__left{
-        margin-left: -50px;
-        margin-right: 50px;
+        margin-left: -20px;
+        margin-right: 60px;
     }
     .footer__right img{
         width: 95px;

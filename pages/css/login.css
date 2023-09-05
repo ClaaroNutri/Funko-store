@@ -44,11 +44,21 @@ label{
     align-items: center;
 }
 @media (max-width:460px) {
+    main{
+        height: 55vh;
+    }
+    h2{
+        margin-top: 150px;
+    }
+    
     .logo{
         width: 190px;
     }
     #contacto, #login, #shop{
         font-size: 18px;
+    }
+    .submit{
+        gap:7px;
     }
     .footer__left{
         margin-left: -50px;
