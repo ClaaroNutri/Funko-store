@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.baby_yoda{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+.star, .baby_yoda_title{
+    font-weight: bold;
+    padding-bottom: 6px;
+    
+}
+.price{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.baby_yoda_pago{
+    color:rgb(54, 109, 230);
+    font-weight: bold;
+    
+}
+.baby_yoda_botones{
+    margin-right: 10px;
+}
+.btn_carrito{
+    background-color:#FF3333;
+    color:white;
+    border:none;
+    padding:5px 10px;
+}
+
+.restar, .sumar{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+.btn_transparente{
+    color:transparent;
+    width: 35px;
+    height: 35px;
+    border-color:#d4d3d3;
+}
+.btn_negro {
+    margin-right: 10px; 
+  }
+  
+  .btn_transparente {
+    margin-right: 10px; 
+  }
+  
+  .btn_carrito {
+    margin-top: 10px; 
+  }
+  .baby_yoda_botones{
+    margin-bottom: 20px;
+  }
+  .producto{
+    font-weight: 600;
+  }
+  .blue{
+    font-weight: bold;
+  }
+
+  @media (max-width:480px) {
+    .logo{
+        width: 190px;
+    }
+    #contacto, #login, #shop{
+        font-size: 18px;
+    }
+    .baby_yoda{
+        flex-wrap: wrap;
+    }
+    .baby_yoda_texto{
+        margin-top:15px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .producto{
+        font-size: x-large;
+        margin-top: 25px;
+    }
+    img{
+        width: 70%;
+    }
+    .footer__left{
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+    .footer__right img{
+        width: 95px;
+        height: 81px;
+    }
+  } 

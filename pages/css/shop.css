@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none; 
+    
+}
+
+#contacto, #login, #shop{
+    color:white;
+    font-size: 24px;
+}
+
+.nav-link:hover, .nav-item:hover, #shop:hover{
+    background-color:#FF3333;
+    color:white;
+    transition: 0.8s ease-in;
+    width: min-content;
+}
+.carrito:hover{
+    background-color: black !important;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*---------------------CONTAINER_SHOP_______*/
+.principal{
+    display: flex;
+    gap:20px;
+    margin-top: 15px;
+}
+.filtro input{
+    margin-right: 3px;
+}
+
+ul{
+    list-style: none;
+}
+.container-busqueda{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    margin-top: 15px;
+    margin-left: 10px;
+    gap:8px
+}
+.container_shop{display: flex;
+    justify-content: space-around; 
+    max-width: 1200px;
+}
+.container_shop img{
+    width: 100%;
+}
+.trooper, .pidge, .luna{
+    max-width: 25vw;
+}
+
+.container_shop{
+    display: flex; 
+    gap:20px;  
+    flex-wrap: wrap;
+}
+.btn_rojo{
+    background-color: #FF3333;
+    color: white;
+    border: none;
+    padding:4px 5px;
+}
+.price{
+    display: inline-block;
+}
+.precio{
+    width: 28%;
+}
+.blue{
+    color:rgb(96, 148, 166);
+}
+
+/*---------------------footer_______*/
+footer{background-color: #30343F;}
+
+.foot {
+    display: flex; 
+    height: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left {display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.footer__left a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer__right img{width: 125px;
+    height: 110px;
+    padding-top: 25px;
+    
+}
+
+footer p {color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15px;
+}
+@media (max-width:430px) {
+    .logo{
+        width: 190px;
+    }
+    #contacto, #login, #shop{
+        font-size: 18px;
+    }
+    .principal{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container-busqueda{
+        width: 80vw;
+    }
+    .container-shop{
+        flex-wrap: wrap;
+    }
+    .trooper, .pidge, .luna{
+        max-width: 80vw;
+    }
+    .footer__left{
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+    .footer__right img{
+        width: 95px;
+        height: 81px;
+    }
+}

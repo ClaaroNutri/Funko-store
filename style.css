@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter&family=Raleway:wght@100;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none; 
+    
+}
+
+#contacto, #login, #shop{
+    color:white;
+    font-size: 24px;
+}
+
+.nav-link:hover, .nav-item:hover, #shop:hover{
+    background-color:#FF3333;
+    color:white;
+    transition: 0.8s ease-in;
+    width: min-content;
+}
+.carrito:hover{
+    background-color: black !important;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    color:white;
+    background-image: url("multimedia_ funkoshop/multimedia/funkos-banner 1.png");
+    background-repeat: no-repeat;
+    height:400px;
+    background-attachment: fixed;
+} 
+.banner >p{
+    font-size: 18px;
+    padding-left: 10%;
+}
+.banner-titulo{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+#banner-btn{
+    margin-left: 10%;
+    width: 180px;
+    transition: all 0.3s ease-in-out;
+}
+#banner-btn:hover{
+    background-color: #FF3333;
+    color:white
+}
+.container-funko{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+.descripcion >button{
+    width: 200px;
+}
+.hr-red {
+    border-top: none;
+    height: 4px; /* Establece la altura de la línea */
+    background-color: red; /* Establece el color de fondo */
+    opacity:1;
+    width: 340px;
+  }
+
+  .indigo{
+    order:2;
+  }
+  #btn-descrip:hover{
+    background-color: #FF3333;
+    border:none;
+    color:white;
+  }
+  .ultimos{
+    margin-left: 80px;
+    margin-bottom: 55px;
+}
+.botones__rojos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.btn_rojo{
+    color:#FFFFFF;
+    background-color: #FF3333;
+    border: none;
+    padding: 6px 18px;
+    position:absolute;
+    right: 0;
+}
+.glide__slide{
+    position: relative;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+}
+
+.imagen-front .imagen-back{
+    width: 100%;
+    
+}
+.imagen{
+    display: flex;
+}
+.imagen-back {
+    display: none;
+}
+
+.imagen:hover .imagen-back {
+    display: block;
+}
+
+.imagen:hover .imagen-front {
+    display: none;
+}
+
+.container-texto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 100px;
+    gap:20px;
+}
+ 
+
+.blue {color:#1D84B5;}
+
+
+footer{background-color: #30343F;}
+
+.foot {
+    display: flex; 
+    height: 220px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left {display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.footer__left a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer__right img{width: 125px;
+    height: 110px;
+    padding-top: 25px;
+    
+}
+
+footer p {color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15px;
+}
+@media (max-width:930px) {
+    .logo{
+        width: 190px;
+    }
+    #contacto, #login, #shop{
+        font-size: 18px;
+    }
+    .imagen-front, .imagen-back{
+        width: 80%;
+    }
+    .producto> img{
+        width: 80%;
+    }
+    .producto> a> img{
+        width: 80%;
+    }
+    .producto{
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;   
+    }
+
+    .indigo{
+        order:-1;
+    }
+    .footer__left{
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+    .footer__right img{
+        width: 95px;
+        height: 81px;
+    }
+}

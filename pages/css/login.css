@@ -1,0 +1,61 @@
+#salir{
+    color:white;
+}
+main{
+    text-align: center;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+form input{
+    border: none;
+    border-bottom:2px solid #FF3333;
+   
+}
+
+form button{
+    color:#FFFFFF;
+    background-color: #FF3333;
+    border: none;
+    padding:5px 8px;
+}
+.formulario{
+    margin-bottom: 20px;
+}
+label{
+    display: inline-block;
+    width: 80px;
+  }
+
+.submit{
+    display: flex;
+    gap:6px;
+    align-items: center;
+}
+@media (max-width:460px) {
+    .logo{
+        width: 190px;
+    }
+    #contacto, #login, #shop{
+        font-size: 18px;
+    }
+    .footer__left{
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+    .footer__right img{
+        width: 95px;
+        height: 81px;
+    }
+}
